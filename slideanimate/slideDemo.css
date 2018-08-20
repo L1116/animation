@@ -1,0 +1,69 @@
+.erweima .prod-plat{
+   display: inline-block;
+   vertical-align: middle;
+}
+.erweima .prod-plat .plat-items{
+    width: 150px;
+    height: 46px;
+    line-height: 46px;
+    border-right: 2px solid #42b5a1;
+    color: #9fa0a0;
+}
+.erweima .prod-plat .active-plat{
+    color: #000;
+}
+.erweima .prod-plat .active-plat span{
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #42b5a1;
+    float: right;
+    height: 0px; 
+    width: 0px; 
+    display: inline-block;
+    margin-top: 11px;
+    vertical-align: middle
+}
+
+.erweima .prod-plat i{
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 6px
+}
+.erweima .prod-plat .erweimaimg{
+    margin-left: 10px;
+    width: 140px;
+    height: 140px;
+}
+.erweima .prod-plat .rsewmimg{
+    background: url("images/rsewm.png") no-repeat center center;
+    background-size: 100%
+}
+.erweima .prod-plat .wxewmimg{
+    background: url("images/wxewm.png") no-repeat center center;
+    background-size: 100%
+}
+.erweima .prod-plat .wbewmimg{
+    background: url("images/wbewm.png") no-repeat center center;
+    background-size: 100%
+}
+.erweima .prod-plat .active-plat .renshiimg-over{
+    background: url("images/weixin02.png") no-repeat;
+}
+.erweima .prod-plat .plat-items .renshiimg{
+    background: url("images/weixin01.png") no-repeat;
+}
+.erweima .prod-plat .active-plat .weixinimg-over{
+    background: url("images/weixin02.png") no-repeat;
+}
+.erweima .prod-plat .plat-items .weixinimg{
+    background: url("images/weixin01.png") no-repeat;
+}
+.erweima .prod-plat .active-plat .xinlangimg-over{
+    background: url("images/weibo02.png") no-repeat;
+}
+.erweima .prod-plat .plat-items .xinlangimg{
+    background: url("images/weibo01.png") no-repeat;
+}

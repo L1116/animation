@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>11</title>
+</head>
+<style type="text/css">
+	.mark-code {
+		width: 400px;
+	}
+
+	.mark-code-left {
+	    display: inline-block;
+	    vertical-align: top;
+	    width: 118px;
+	    border-right: 2px solid #63c0b0;
+	    min-height: 140px;
+	    color: #9fa0a0;
+	    text-align: center;
+	}
+
+	.mark-code-left .mark-item {
+		width: 100%;
+		height: 46px;
+		line-height: 46px;
+	}
+	.active i {
+	    height: 0px;
+	    width: 0px;
+	    float: right;
+	    display: inline-block;
+	    border-right: solid 10px #63c0b0;
+	    border-top: solid 6px rgba(0,0,0,0);
+	    border-bottom: solid 6px rgba(0,0,0,0);
+	    margin-top: 16px;
+	    display:hidden;
+	}
+	.mark-code-right {
+		display: inline-block;
+	    width: 140px;
+	    height: 140px;
+	}
+	.mark-code-right a > img {
+		width: 100%;
+		height:100%;
+	}
+</style>
+<script type="text/javascript" src="./jquery.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('.mark-item').on( "mouseover", function(){
+			$('.mark-item').removeClass('active');
+			$(this).addClass('active');
+		} )
+	})
+</script>
+<body>
+    <div class="mark-code">
+      	<div class="mark-code-left">
+      		<div class="mark-item active">人事外包 
+      			<i>
+      			</i>
+      		</div>
+      		<div class="mark-item">微信公众平台<i></i></div>
+      		<div class="mark-item">新浪微博<i ></i></div>
+      	</div>
+      	<div class="mark-code-right">
+      		<a href="javascript:void(0)">
+      			<img src="./qr-code.png">
+      		</a>
+      	</div>
+    </div>
+</body>
+</html>
